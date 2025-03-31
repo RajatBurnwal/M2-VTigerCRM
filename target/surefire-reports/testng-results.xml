@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-26T10:20:06 IST" name="Surefire suite" finished-at="2025-03-26T10:20:37 IST" duration-ms="30524">
+    <groups>
+      <group name="Regression">
+        <method signature="TC_004.CON_001()[pri:0, instance:testCaseRepo.TC_004@4b5a5ed1]" name="CON_001" class="testCaseRepo.TC_004"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-03-26T10:20:06 IST" name="Surefire test" finished-at="2025-03-26T10:20:37 IST" duration-ms="30524">
+      <class name="testCaseRepo.TC_004">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:testCaseRepo.TC_004@4b5a5ed1]" started-at="2025-03-26T10:20:06 IST" name="dbConnection" finished-at="2025-03-26T10:20:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCaseRepo.TC_004@4b5a5ed1]" started-at="2025-03-26T10:20:06 IST" name="launchBrowser" finished-at="2025-03-26T10:20:10 IST" duration-ms="3422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:testCaseRepo.TC_004@4b5a5ed1]" started-at="2025-03-26T10:20:10 IST" name="loginOperation" finished-at="2025-03-26T10:20:14 IST" duration-ms="4527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="CON_001()[pri:0, instance:testCaseRepo.TC_004@4b5a5ed1]" started-at="2025-03-26T10:20:14 IST" name="CON_001" finished-at="2025-03-26T10:20:34 IST" duration-ms="19519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CON_001 -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:testCaseRepo.TC_004@4b5a5ed1]" started-at="2025-03-26T10:20:34 IST" name="logoutOperation" finished-at="2025-03-26T10:20:36 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCaseRepo.TC_004@4b5a5ed1]" started-at="2025-03-26T10:20:36 IST" name="closeBrowser" finished-at="2025-03-26T10:20:37 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:testCaseRepo.TC_004@4b5a5ed1]" started-at="2025-03-26T10:20:37 IST" name="closeDBConnection" finished-at="2025-03-26T10:20:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- testCaseRepo.TC_004 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
